@@ -1,0 +1,24 @@
+{% load usdfilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filters</title>
+</head>
+<body bgcolor="lightgreen">
+    <center>
+    <h1>usdfilters</h1>
+
+    <h2>{{ datas }}</h2>
+
+    <h1>{{ datas | swapping }}</h1>
+
+    <h1>{{datas | remove:'h'}}</h1>
+        
+    <h1>{{datas | counting:'a'}}</h1>
+    
+    </center>
+
+</body>
+</html>

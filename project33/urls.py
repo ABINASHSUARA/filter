@@ -19,5 +19,6 @@ from django.urls import path
 from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('filters/',filters,name='filters')
+    path('filters/',filters,name='filters'),
+    path('usd/',usd,name='usd')
 ]
